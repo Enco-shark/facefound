@@ -1,0 +1,48 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 构建输出
+build/
+dist/
+*.spec
+
+# 模型文件（太大，需单独下载）
+buffalo_l/
+models/
+*.onnx
+*.onnx.bak
+
+# 输出文件
+output/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# 日志
+*.txt
+face_tool_error.txt
+error_log.txt
+debug.txt
+debug_model.txt
+
+# 缓存
+template_cache.npz
+cache.npz
+*.npz
+
+# 示例数据（个人隐私照片）
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+Thumbs.db
+.DS_Store
